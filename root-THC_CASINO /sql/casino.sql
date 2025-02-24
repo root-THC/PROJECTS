@@ -35,7 +35,7 @@ CREATE TABLE transactions (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     type ENUM('deposit', 'withdrawal', 'bet', 'win') NOT NULL,
-        amount DECIMAL(10,2) NOT NULL,
+     amount DECIMAL(10,2) NOT NULL,
         date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
         INDEX(user_id)
