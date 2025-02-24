@@ -23,7 +23,7 @@ CREATE TABLE users (
 -- Tabla de apuestas
 CREATE TABLE apuestas (
     betting_id INT AUTO_INCREMENT PRIMARY KEY,
-    usuario_id INT NOT NULL,
+    user_id INT NOT NULL,
     juego VARCHAR(50) NOT NULL,
     quantity NUMERIC (8,2)NOT NULL,
     result VARCHAR(50),
