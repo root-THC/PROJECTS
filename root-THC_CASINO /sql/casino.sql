@@ -4,7 +4,7 @@ CREATE DATABASE casino_db;
 \c casino_db
 
 -- Tabla de usuarios
-CREATE TABLE usuarios (
+CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
