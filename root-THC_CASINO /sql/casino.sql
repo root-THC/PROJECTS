@@ -1,5 +1,7 @@
-CREATE DATABASE casino_db;
-\c casino_db;
+\c template1
+DROP DATABASE IF EXISTS gabinet;
+CREATE DATABASE gabinet;
+\c gabinet
 
 -- Tabla de usuarios
 CREATE TABLE usuarios (
