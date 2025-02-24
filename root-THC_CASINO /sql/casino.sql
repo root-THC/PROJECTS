@@ -1,5 +1,5 @@
 \c template1
-DROP DATABASE IF EXISTS gabinet;
+DROP DATABASE IF EXISTS casino_db;
 CREATE DATABASE casino_db;
 \c gabinet
 
