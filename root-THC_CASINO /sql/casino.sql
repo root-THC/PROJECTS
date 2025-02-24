@@ -8,6 +8,9 @@ CREATE DATABASE casino_db;
 CREATE SEQUENCE users_seq
   START WITH 1
   INCREMENT BY 1;
+
+
+  
 CREATE TABLE users (
     id INT  PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
