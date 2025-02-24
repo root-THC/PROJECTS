@@ -6,7 +6,7 @@ CREATE DATABASE casino_db;
 -- Tabla de usuarios
 
 CREATE SEQUENCE users_seq
-  START WITH 0
+  START WITH 1
   INCREMENT BY 1;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
