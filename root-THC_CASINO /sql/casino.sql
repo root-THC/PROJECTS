@@ -10,7 +10,7 @@ CREATE SEQUENCE users_seq
   INCREMENT BY 1;
 CREATE TABLE users (
     id INT  PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL,
+    name VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     contraseña VARCHAR(255) NOT NULL,
     saldo INT DEFAULT 1000,  
