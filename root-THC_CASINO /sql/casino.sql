@@ -21,7 +21,7 @@ CREATE TABLE users (
 );
 
 -- Tabla de apuestas
-CREATE TABLE apuestas (
+CREATE TABLE bets (
     betting_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     game VARCHAR(50) NOT NULL,
