@@ -25,7 +25,7 @@ CREATE TABLE bets (
     betting_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     game VARCHAR(50) NOT NULL,
-    quantity NUMERIC (8,2)NOT NULL,
+    amount NUMERIC (8,2)NOT NULL,
     result VARCHAR(50),
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id)
