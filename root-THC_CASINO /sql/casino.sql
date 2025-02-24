@@ -4,6 +4,10 @@ CREATE DATABASE casino_db;
 \c casino_db
 
 -- Tabla de usuarios
+
+CREATE SEQUENCE deptno_seq
+  START WITH 50
+  INCREMENT BY 10;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL,
