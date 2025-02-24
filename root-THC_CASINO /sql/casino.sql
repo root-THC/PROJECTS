@@ -30,3 +30,5 @@ CREATE TABLE bets (
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+CREATE TABLE transactions (
