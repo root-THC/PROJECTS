@@ -1,6 +1,6 @@
 \c template1
 DROP DATABASE IF EXISTS gabinet;
-CREATE DATABASE gabinet;
+CREATE DATABASE casino_db;
 \c gabinet
 
 -- Tabla de usuarios
