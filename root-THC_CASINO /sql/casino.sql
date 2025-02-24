@@ -38,5 +38,6 @@ CREATE TABLE transactions (
     amount DECIMAL(10,2) NOT NULL,
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+
     );
         
