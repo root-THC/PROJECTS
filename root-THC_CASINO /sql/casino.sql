@@ -7,7 +7,7 @@ CREATE TABLE usuarios (
     nombre VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     contraseña VARCHAR(255) NOT NULL,
-    saldo INT DEFAULT 1000,  -- Saldo inicial en fichas
+    saldo INT DEFAULT 1000,  
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
