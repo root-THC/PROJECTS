@@ -16,7 +16,7 @@ CREATE TABLE users (
     name VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     passid VARCHAR(255) NOT NULL,
-    balance INT NUMERIC 1000,  
+    balance INT NUMERIC 1,  
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
