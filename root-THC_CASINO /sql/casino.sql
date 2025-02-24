@@ -5,7 +5,7 @@ CREATE DATABASE casino_db;
 
 -- Tabla de usuarios
 
-CREATE SEQUENCE deptno_seq
+CREATE SEQUENCE users_seq
   START WITH 50
   INCREMENT BY 10;
 CREATE TABLE users (
