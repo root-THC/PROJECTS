@@ -28,5 +28,5 @@ CREATE TABLE apuestas (
     cantidad INT NOT NULL,
     resultado VARCHAR(50),
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+    FOREIGN KEY (usuario_id) REFERENCES users(id)
 );
