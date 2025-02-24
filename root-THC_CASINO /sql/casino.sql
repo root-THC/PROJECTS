@@ -24,7 +24,7 @@ CREATE TABLE users (
 CREATE TABLE apuestas (
     betting_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
-    juego VARCHAR(50) NOT NULL,
+    game VARCHAR(50) NOT NULL,
     quantity NUMERIC (8,2)NOT NULL,
     result VARCHAR(50),
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
