@@ -13,7 +13,7 @@ CREATE TABLE users (
     name VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     password VARCHAR(255) NOT NULL,
-    saldo INT DEFAULT 1000,  
+     INT DEFAULT 1000,  
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
